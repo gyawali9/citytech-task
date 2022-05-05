@@ -1,9 +1,13 @@
 import React from 'react'
 import './App.css'
+import Login from './component/Login/Login'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="app">
+      <Login/>
+    </div>
+
   )
 }
 
